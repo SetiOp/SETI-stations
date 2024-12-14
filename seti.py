@@ -1,9 +1,9 @@
 #
 # Title: SETI League Search Platform - Project Capellan 2024
 # Description: Software for use with a radio telescope.
-# Authors: Scott Carter scarter@setileague.ca
-# Date: Monday, July 8, 2024
-# Version: 0.1
+# Authors: Scott Carter seti@22u.ca
+# Date: Saturday, December 14, 2024
+# Version: 0.2
 #
 
 import tkinter
@@ -29,7 +29,7 @@ auth_window.title("Project Capellan")
 
 # Login function
 def login():
-    if user_field.get()=="username@setileague.ca" and pass_field.get()=="123":
+    if user_field.get()=="username@22u.ca" and pass_field.get()=="123":
         print("Login Successful!")
         main_window.deiconify() # Display main application panel
         auth_window.destroy() # Destroy auth panel
@@ -46,7 +46,7 @@ label.pack(pady=5, padx=10)
 
 # Username field
 user_field = tkinter.Entry(auth_window, width="24")
-user_field.insert(0,'username@setileague.ca')
+user_field.insert(0,'username@22u.ca')
 user_field.pack(pady=5, padx=10)
 
 # Password field
@@ -55,7 +55,7 @@ pass_field.insert(0,'Password')
 pass_field.pack(pady=5, padx=10)
 
 # Display URL for further information
-label_footer = tkinter.Label(auth_window, text="https://www.setileague.ca/capellan.html", font=("Ariel", 10, 'bold'))
+label_footer = tkinter.Label(auth_window, text="https://22u.ca/seti", font=("Ariel", 10, 'bold'))
 label_footer.pack(pady=5, padx=10)
 
 # Display the login button and run the login function when clicked
