@@ -1,9 +1,9 @@
 #
-# Title: SETI League Search Platform - Project Capellan 2024
+# Title: SETI Stations Radio Search Platform
 # Description: Software for use with a radio telescope.
 # Authors: Scott Carter seti@22u.ca
 # Date: Saturday, December 14, 2024
-# Version: 0.2
+# Version: 0.3
 #
 
 import tkinter
@@ -12,14 +12,14 @@ import tkinter
 main_window = tkinter.Tk()
 main_window.withdraw() # Hide the window
 main_window.geometry("600x600+100+100")
-main_window.title("Project Capellan")
+main_window.title("SETI Stations")
 
 # Add main_window to the auth frame
 main_frame = tkinter.Frame(master=main_window)
 main_frame.pack(pady=20, padx=60, fill="both", expand=False)
 
 # Display the title
-main_label_title = tkinter.Label(main_window, text="SETI League Search Platform", font=("Ariel", 18, 'bold'))
+main_label_title = tkinter.Label(main_window, text="SETI Stations Search Platform", font=("Ariel", 18, 'bold'))
 main_label_title.pack(pady=5, padx=10)
 
 # Create authentication panel
@@ -41,7 +41,7 @@ auth_frame = tkinter.Frame(master=auth_window)
 auth_frame.pack(pady=20, padx=60, fill="both", expand=False)
 
 # Display the title
-label = tkinter.Label(auth_window, text="SETI League Search Platform", font=("Ariel", 18, 'bold'))
+label = tkinter.Label(auth_window, text="SETI Stations Search Platform", font=("Ariel", 18, 'bold'))
 label.pack(pady=5, padx=10)
 
 # Username field
