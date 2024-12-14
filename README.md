@@ -1,2 +1,2 @@
 # SETI-stations
-Amateur SETI software projects
+Amateur SETI - SETI Stations Radio Software Project
