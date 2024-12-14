@@ -12,7 +12,7 @@ import tkinter
 main_window = tkinter.Tk()
 main_window.withdraw() # Hide the window
 main_window.geometry("600x600+100+100")
-main_window.title("SETI Stations")
+main_window.title("SETI Stations Search Platform")
 
 # Add main_window to the auth frame
 main_frame = tkinter.Frame(master=main_window)
@@ -25,7 +25,7 @@ main_label_title.pack(pady=5, padx=10)
 # Create authentication panel
 auth_window = tkinter.Tk()
 auth_window.geometry("500x265")
-auth_window.title("Project Capellan")
+auth_window.title("SETI Stations Search Platform")
 
 # Login function
 def login():
